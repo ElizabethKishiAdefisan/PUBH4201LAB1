@@ -29,10 +29,16 @@
   
   #### If you did not accidentally set up JupyterLab in terminal, use this
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
-git remote add origin https://github.com/ElizabethKishiAdefisan/PUBH4201LABONE.git
+
+git remote add origin https://github.com/ElizabethKishiAdefisan/PUBH4201LABONE.git #### For HTTPS
+
 git push -u origin main
+
 #### Else, i suggest opening up your repo, clicking "yes" on adding a README and. gitignore, and then individually setting up each file. Beacase SRC and Data are empty,  I suggest you use the tool given to me by my Gemini AI to make a file called ".gitkeep"
 #### It is important that you are always in the LAB1 cd when doing this in the terminal
