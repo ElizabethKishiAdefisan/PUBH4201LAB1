@@ -3,17 +3,30 @@
 ### Setup
   ### pip install conda
   conda -- version
+  
   mkdir PUBH4201/LAB 1
+  
   cd LAB 1
+  
   touch README.md .gitignore environment.yml AI_USAGE.md
+  
   mkdir src data
+  
   touch src/.gitkeep data/.gitkeep ### Make sure you are still in LAB1
+
+  
   mamba create -n PUBH4201/LAB1 python=3.12 pandas=2.2 -y ### or use LAB1
+  
   conda activate PUBH4201/LAB1
+  
   conda env export --from-history > environment.yml
+  
   mamba env remove -n  LAB1 -y
+  
   mamba env create -n  environment.yml
+  
   conda activate PUBH4201/LAB1
+  
   #### If you did not accidentally set up JupyterLab in terminal, use this
 git init
 git add README.md
