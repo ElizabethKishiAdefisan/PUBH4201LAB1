@@ -40,5 +40,5 @@ git remote add origin https://github.com/ElizabethKishiAdefisan/PUBH4201LABONE.g
 
 git push -u origin main
 
-#### Else, i suggest opening up your repo, clicking "yes" on adding a README and. gitignore, and then individually setting up each file. Beacase SRC and Data are empty,  I suggest you use the tool given to me by my Gemini AI to make a file called ".gitkeep"
+#### Else, i suggest opening up your repo, clicking "yes" on adding a README and. gitignore, and then individually setting up each file. Beacase SRC and Data are empty,  I suggest you use the tool given to me by my Gemini AI to make a file called ".gitkeep" you will add the src and data directors to this file with the touch src. code
 #### It is important that you are always in the LAB1 cd when doing this in the terminal
