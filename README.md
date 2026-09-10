@@ -36,7 +36,7 @@ git commit -m "first commit"
 
 git branch -M main
 
-git remote add origin https://github.com/ElizabethKishiAdefisan/PUBH4201LABONE.git #### For HTTPS
+git remote add origin https://github.com/ElizabethKishiAdefisan/PUBH4201LAB1.git #### For HTTPS
 
 git push -u origin main
 
